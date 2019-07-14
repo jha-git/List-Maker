@@ -1,0 +1,77 @@
+h1{
+
+font-size:50px;
+text-align:center;
+
+}
+.fa-arrow-circle-left{
+
+  position: fixed;
+  color:white;
+  font-size: 50px;
+  top:10px;
+   left:10px;
+
+}
+.fa-arrow-circle-left:hover{
+color:#1aff1a;
+}
+
+
+body{
+background-image:url("background2.jpg") ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+ li{color:white;
+ font-size:30px;
+font-family: courier;
+list-style-type:square;}
+button{
+font-weight: bold;
+font-size: 17px;
+background-color: #117ad6;
+color:white;
+border:3px solid white;
+padding:5px 10px;
+border-radius: 10px;
+
+}
+button:hover{
+font-weight: bold;
+font-size: 17px;
+background-color: white;
+color:#117ad6;
+border:3px solid #117ad6;
+padding:5px 10px;
+border-radius: 10px;
+
+}
+
+#userinput{
+background-color: #117ad6;
+color:white;
+font-size: 20px;
+font-family: courier;
+border:3px solid white;
+padding: 11px 30px 0px 0px;
+border-radius: 10px;
+}
+#box{
+position: absolute;
+ left: 0;
+ top: 20%;
+ width: 100%;
+ text-align: center;
+}
+#list{
+position:absolute;
+left: 0;
+top: 30%;
+margin-left: 40%;
+width: 100%;
+}
